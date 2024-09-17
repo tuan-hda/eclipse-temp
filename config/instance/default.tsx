@@ -2,32 +2,34 @@ import { BsStars } from 'react-icons/bs'
 import { FaCar } from 'react-icons/fa'
 import { TbArrowRight, TbCode } from 'react-icons/tb'
 
-const home = [
+export const home = [
   {
     type: 'hero',
-    title: 'Welcome to digital.auto playground for system virtualization',
+    title: 'Welcome to digital.auto playground for virtual exploration',
     description:
-      'To support shift-level testing for software-defined vehicle (SDV) applications, we have created the digital.auto playground. This is a cloud-based, rapid prototyping environment for new, <b>SDV-enabled features</b>. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use.',
+      'To support shift-level testing for software-defined vehicle (SDV) applications, we have created the digital.auto playground. This is a cloud-based, rapid prototyping environment for new, SDV-enabled features. The prototypes are built against real-world vehicle APIs and can be seamlessly migrated to automotive runtimes, such as Eclipse Velocitas. The playground is open and free to use.',
     image: '/imgs/autowrx-bg.jpg',
   },
   {
     type: 'feature-list',
     items: [
       {
-        title: 'SE building blocks',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
+        title: 'Vehicle Signal Catalogue',
+        description:
+          'Browse, explore and enhance the catalogue of Connected Vehicle Interfaces',
+        url: 'https://digital.auto',
       },
       {
         title: 'Prototyping',
         description:
           'Build and test new connected vehicle app prototypes in the browser, using Python and the Vehicle Signals',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
+        url: 'https://digital.auto',
       },
       {
         title: 'User Feedback',
         description:
           'Collect and evaluate user feedback to prioritize your development portfolio',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
+        url: 'https://digital.auto',
       },
     ],
   },
@@ -50,7 +52,7 @@ const home = [
       {
         title: 'Build with AI',
         description: 'Build prototype with GenAI',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
+        url: '/genai-wizard',
         icon: <BsStars className="h-7 w-7 text-da-primary-500" />,
       },
       {
@@ -115,5 +117,3 @@ const home = [
   //   ],
   // },
 ]
-
-export default home
