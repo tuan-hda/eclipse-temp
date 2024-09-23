@@ -1,11 +1,8 @@
 const config: any = {
   serverBaseUrl: "https://backend-core-xhub.digital.auto",
-  serverVersion: import.meta.env.VITE_SERVER_VERSION || "v2",
-  logBaseUrl: import.meta.env.PROD
-    ? 'https://logs.digital.auto'
-    : 'https://logs.digitalauto.asia',
-  cacheBaseUrl:
-    import.meta.env.VITE_CACHE_BASE_URL || 'https://cache.digitalauto.tech',
+  serverVersion: "v2",
+  logBaseUrl: "https://logs.digital.auto",
+  cacheBaseUrl: "https://cache.digitalauto.tech",
   studioUrl: "https://studio.digital.auto",
   studioBeUrl: "https://bewebstudio.digitalauto.tech",
   widgetMarketPlaceUrl: "https://marketplace.digital.auto/packagetype/widget",
@@ -16,6 +13,8 @@ const config: any = {
   sso: "bosch",
   defaultModelId: "665826e3194aff003dd2f67b",
   genAI: {
+    wizardCover: "/imgs/default_prototype_cover.jpg",
+    hideMarketplace: false,
     defaultEndpointUrl: "https://backend-core-xhub.digital.auto/v2/genai",
     marketplaceUrl: "https://store-be.digitalauto.tech/marketplace/genai",
     sdvApp: [
@@ -43,11 +42,13 @@ const config: any = {
     widget: [],
   },
   github: {
-    clientId: 'Ov23livVYo2MXyqoIHox'
+    clientId: "Ov23livVYo2MXyqoIHox",
   },
-  disableEmailLogin: import.meta.env.VITE_DISABLE_EMAIL_LOGIN === 'true',
+  disableEmailLogin: "true",
   strictAuth: true,
-};
+  runtime: {
+    url: "https://kit.digitalauto.tech",
+  },
+}
 
-export default config;
-	
+export default config
