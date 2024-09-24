@@ -21,13 +21,12 @@ const home = [
         title: 'Prototyping',
         description:
           'Build and test new connected vehicle app prototypes in the browser, using Python and the Vehicle Signals',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
+        url: '/model',
       },
       {
         title: 'User Feedback',
         description:
           'Collect and evaluate user feedback to prioritize your development portfolio',
-        url: '/model/66c303dd8eab08002ffeeb9d/library/prototype/66c305968eab08002ffeec5e/dashboard',
       },
     ],
   },
