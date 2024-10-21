@@ -1,5 +1,5 @@
 const config: any = {
-  serverBaseUrl: "https://backend-core-xhub.digital.auto",
+  serverBaseUrl: "https://backend-core-eclipse.digital.auto",
   serverVersion: "v2",
   logBaseUrl: "https://logs.digital.auto",
   cacheBaseUrl: "https://cache.digitalauto.tech",
@@ -9,36 +9,15 @@ const config: any = {
   widgetMarketPlaceBe: "https://store-be.digitalauto.tech",
   uploadFileUrl: "https://upload.digitalauto.tech",
   instanceLogo: "https://www.bosch.com/media/tech/tech_images/favicon-png.png",
-  instance: "xhub",
-  sso: "bosch",
+  instance: "eclipse",
   defaultModelId: "665826e3194aff003dd2f67b",
   genAI: {
     wizardCover: "/imgs/default_prototype_cover.jpg",
     hideMarketplace: false,
-    defaultEndpointUrl: "https://backend-core-xhub.digital.auto/v2/genai",
+    defaultEndpointUrl: "https://backend-core-eclipse.digital.auto/v2/genai",
     marketplaceUrl: "https://store-be.digitalauto.tech/marketplace/genai",
-    sdvApp: [
-      {
-        id: "etas-sdv-genai",
-        type: "GenAI_Python",
-        name: "ETAS SDV GenAI",
-        description: "ETAS GenAI for Python code generation",
-        apiKey: "Empty",
-        endpointUrl: "https://backend-core-xhub.digital.auto/v2/genai",
-        customPayload: (prompt: string) => ({ prompt }),
-      },
-    ],
-    dashboard: [
-      {
-        id: "etas-dashboard-genai",
-        type: "GenAI_Python",
-        name: "ETAS Dashboard GenAI",
-        description: "ETAS GenAI for Python code generation",
-        apiKey: "Empty",
-        endpointUrl: "https://backend-core-xhub.digital.auto/v2/genai",
-        customPayload: (prompt: string) => ({ prompt }),
-      },
-    ],
+    sdvApp: [],
+    dashboard: [],
     widget: [],
   },
   github: {

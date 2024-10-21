@@ -327,9 +327,9 @@ body {
 }
 
 :root {
-  --da-primary-100: 200 28 95;
-  --da-primary-300: 202 100 37.6;
-  --da-primary-500: 202 100 35;
+  --da-primary-100: 326 67.5 50;
+  --da-primary-300: 326 67.5 39.8;
+  --da-primary-500: 326 67.5 20;
 
   --da-secondary-100: 67 54 92;
   --da-secondary-300: 67 54 68;
@@ -348,6 +348,6 @@ body {
 
   --da-destructive: 0 84 60;
 
-  --da-gradient-from: 202 100 36.6;
-  --da-gradient-to: 202 100 36.6;
+  --da-gradient-from: 274 50.8 25.5;
+  --da-gradient-to: 274 50.8 25.5;
 }
